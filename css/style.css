@@ -1,0 +1,27 @@
+.nav-link:hover{
+    color: var(--bs-danger);
+}
+.carousel-item img{
+    width: 100%;
+    height: 80vh;
+}
+.card:hover .btn{
+    background: var(--bs-light);
+    border-color: var(--bs-light);
+    color: black;
+}
+.card:hover{
+    background: var(--bs-danger);
+    color: white;
+}
+.card{
+    transition: .5s;
+}
+.btn{
+    transition: .5s;
+}
+.image-border-radius{
+    width: 200px;
+    height: 180px;
+    border-radius: 50%;
+}
